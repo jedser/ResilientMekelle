@@ -1,0 +1,18 @@
+{
+  "vehicle_id": "ET-MK-EV-004",
+  "timestamp": "2026-01-14T09:30:00Z",
+  "technician_id": "PWD-VET-07",
+  "battery_health": {
+    "status": "WARNING",
+    "state_of_health_percent": 78,
+    "temperature_celsius": 42.5,
+    "voltage_variance": 0.05
+  },
+  "cells": [
+    { "id": 1, "voltage": 3.7, "status": "OK" },
+    { "id": 2, "voltage": 3.4, "status": "LOW_VOLTAGE_FAULT" },
+    { "id": 3, "voltage": 3.7, "status": "OK" }
+  ],
+  "recommendation": "Manual balancing required. Check Cell #2 contacts.",
+  "co2_saved_lifetime_kg": 4500
+}
