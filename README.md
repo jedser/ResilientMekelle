@@ -93,3 +93,18 @@ Organization: VISION Green Mobility Hub
 HQ: Woreda Hadnet, Mekelle, Tigray, Ethiopia
 
 © 2026 VISION Green Mobility Hub. Built with Resilience.
+graph TD
+    User[Driver / Customer] -->|Scans QR| App[Mobile App]
+    App -->|Payment| TeleBirr((TeleBirr API))
+    App -->|Booking| Server[VISION Cloud Server]
+    
+    Car[EV Car] -->|OBD Data| Tablet[PWD Tech Tablet]
+    Tablet -->|Diagnostics| Server
+    
+    Solar[Solar Canopy] -->|IoT Data| Server
+    
+    Server -->|Audit Logs| GitHub[Fiduciary Dashboard]
+    Server -->|Safety Alert| SMS[Security Team]
+    
+    style TeleBirr fill:#f9f,stroke:#333,stroke-width:2px
+    style GitHub fill:#90EE90,stroke:#333,stroke-width:2px
