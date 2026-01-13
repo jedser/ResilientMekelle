@@ -86,13 +86,14 @@ Offline-First Architecture: Ensuring app functionality during intermittent inter
 
 Assistive UI/UX: Enhancing accessibility features for PWDs.
 
-Contact:
+Contact: Jedser Bairu +251968476260
 
 Organization: VISION Green Mobility Hub
 
 HQ: Woreda Hadnet, Mekelle, Tigray, Ethiopia
 
-© 2026 VISION Green Mobility Hub. Built with Resilience.
+© 2026 VISION Green Mobility Hub. Built with Resilience
+
 graph TD
     User[Driver / Customer] -->|Scans QR| App[Mobile App]
     App -->|Payment| TeleBirr((TeleBirr API))
